@@ -386,7 +386,7 @@ static char DZNWebViewControllerKVOContext = 0;
     
     UIFont *titleFont = self.navigationBar.titleTextAttributes[NSFontAttributeName] ?: [UIFont boldSystemFontOfSize:12.0];
     UIFont *urlFont = [UIFont fontWithName:titleFont.fontName size:titleFont.pointSize-2.0];
-    UIColor *textColor = self.navigationBar.titleTextAttributes[NSForegroundColorAttributeName] ?: [UIColor blackColor];
+    UIColor *textColor = self.navigationBar.titleTextAttributes[NSForegroundColorAttributeName] ?: self.navBarTitleColor;
     
     NSMutableString *text = [NSMutableString stringWithString:title];
     
