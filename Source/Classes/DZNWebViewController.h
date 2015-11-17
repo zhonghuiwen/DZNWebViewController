@@ -112,6 +112,8 @@ typedef NS_OPTIONS(NSUInteger, DZNsupportedWebActions) {
 @property (nonatomic, strong) UIImage *actionButtonImage;
 
 @property (nonatomic, strong) UIColor *navBarTitleColor;
+@property (nonatomic, strong) UIFont *navBarTitleFont;
+@property (nonatomic, strong) UIFont *navBarUrlFont;
 
 
 ///------------------------------------------------
